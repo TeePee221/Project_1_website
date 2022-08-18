@@ -1,0 +1,188 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    gap: 50px;
+    margin-bottom:0px;
+}
+
+
+#logo_header{
+    width: 60px;
+    height: auto;
+    margin-left: 140px;
+    margin-top: 10px;
+    
+    
+}
+.upper{
+    background-color: #1F2937;
+    width: 900px;
+    padding: 5px;
+    padding-bottom: 60px;    
+}
+
+ul{
+    display: flex;
+    margin-right: 65px;
+    gap: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    ;
+    
+}
+.header_low{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+#news_image{
+    width: 350px;
+    height: max-content;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.low_header_right{
+    display: flex;
+    justify-content: flex-start;
+    width: 290px;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.signup-header{
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+    
+
+}
+.signup-header:hover{
+    background-color: #7bb2d4;
+}
+.signup-action {
+    display: flex;
+    width: 100px;
+    height: 24px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: solid;
+    border-color: white;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+}
+.signup-action:hover{
+    background-color: #7bb2d4;
+}
+h2 {
+    color: #F9FAF8;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0;
+}
+p {
+    margin-bottom: 10px;
+    color: #cfd4dc;
+    font-size: 18px;
+}
+.mid_section{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.bricks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.brick {
+    text-align:justify;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    width: 900px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.quote_text{
+    font-size: 36px;
+    font-style: light italic;
+    color: #4f5a6a;
+    width: 500px;
+}
+.quote-signature {
+    align-self: flex-end;
+    margin-right: 150px;
+    color: #1F2937;
+}
+.action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 60px;
+}
+.actoin-bold{
+    font-style: bold;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.action-small {
+    margin-top: 2px;
+}
+.footer {
+    width: 900px;
+    height: 70px;
+    margin-top: auto;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
